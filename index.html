@@ -1,0 +1,85 @@
+ <!DOCTYPE html>
+ <html>
+    <head>
+        <meta charset = "utf-9">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+        <title>SMK TELKOM-MALANG</title>
+        <link rel="stylesheet" href="stylesheet.css">
+        <div class="header">
+            <nav class="navbar navbar-light bg-light">
+                <div class="container">
+                  <a class="navbar-brand" href="#">
+                    <img src="data:image/png;base64,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" alt="" width="30" height="24">
+                    <nav class="navbar navbar-light bg-light">
+                        <div class="container-fluid">
+                          <a class="navbar-brand"></a>
+                          <form class="d-flex">
+                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                            <button class="btn btn-outline-success" type="submit">Search</button>
+                          </form>
+                        </div>
+                      </nav>  
+                </a>
+                </div>
+              </nav>
+            <div class="header-logo">
+                <img src = "https://smktelkom-pwt.sch.id/wp-content/uploads/2019/02/SMK-Telkom-Malang.png">
+            </div>
+        </div> 
+     </head>
+  <body>
+      <div class="main">
+        <div class="copy-container">
+          <h1>Selamat datang</h1>
+          <h2>Yuk Lihat apa saja yang ada disini</h2>
+        </div>
+      </div>
+      
+      <div class="contents">
+        <h3 class="section-title">Pelajaran</h3>
+        <div class="contents-item">
+          <img src="https://s3-ap-northeast-1.amazonaws.com/progate/shared/images/lesson/html/study/html.svg">
+          <p>HTML & CSS</p>
+        </div>
+        <div class="contents-item">
+          <img src="https://s3-ap-northeast-1.amazonaws.com/progate/shared/images/lesson/html/study/php.svg">
+          <p>PHP</p>
+        </div>
+        <div class="contents-item">
+          <img src="https://s3-ap-northeast-1.amazonaws.com/progate/shared/images/lesson/html/study/ruby.svg">
+          <p>Ruby</p>
+        </div>
+        <div class="contents-item">
+          <img src="https://s3-ap-northeast-1.amazonaws.com/progate/shared/images/lesson/html/study/swift.svg">
+          <p>Swift</p>
+        </div>
+      </div>
+      <div class="contact-form">
+        <h3 class="section-title">Hubungi kami</h3>
+        <p>Email (Wajib Diisi)</p>
+        <!-- Tambahkan tag <input> -->
+        <input>
+        
+        <p>Pesan (Wajib Diisi)</p>
+        <!-- Tambahkan tag <textarea> --> 
+        <textarea></textarea>
+        
+        <p>*Bidang Wajib Diisi</p>
+        <!-- Tambahkan tag <input> -->
+        <input class="contact-submit" type="submit" value="kirim">
+        
+      </div>
+      
+  <div class="footer">
+        <div class="footer-logo">Moklet</div>
+        <div class="foooter-list">
+      <ul>
+        <li>Tentang</li>
+        <li>Selebihnya</li>
+        <li>Hubungi Kami</li>
+      </ul>
+        </div>
+    </div>
+  </body>
+ </html>
