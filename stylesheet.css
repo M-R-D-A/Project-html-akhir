@@ -1,0 +1,79 @@
+.body{
+    font-family:"avenirnext"
+}
+.li{
+    list-style:none;
+}
+.title{
+    font-family:"fantasy";
+    font-size:36px;
+    color:gray;
+}
+.header {
+    background-color: gray;
+    color: #fff;
+    height: 90px;
+}
+
+.header-list li{
+    padding: 33px 20px;
+    float:right;
+    color:white;
+    background-color: crimson;
+}
+.header-logo {
+    float: left;
+    font-family:unset;
+    font-size: 36px;
+    padding: 20px 40px;
+  }
+  .main {
+    padding: 100px 80px;
+  }
+  .copy-container h1{
+    font-size: 100px;
+  }
+  .copy-container h2{
+    font-size: 70px;
+  }
+  .contents {
+    height: 500px;
+    margin-top:100px;
+  }
+  
+  .section-title {
+    border-bottom: 2px solid #dee7ec;
+    font-size:28px;
+    
+    padding-bottom:15px;
+    margin-bottom:50px;
+  }
+  
+  .contents-item {
+    float: left;
+    margin-right:40px;
+  }
+  .contents-item p{
+    font-size:24px;
+    margin-top:30px;
+  }
+
+  .footer {
+    background-color: #f12d2d;
+    color: #fff;
+    height: 110px;
+    padding: 40px;
+  }
+  
+  .footer-logo {
+    float: left;
+    font-size: 32px;
+  }
+  
+  .footer-list {
+    float: right;
+  }
+  
+  .footer-list li {
+    padding-bottom: 20px;
+  }
